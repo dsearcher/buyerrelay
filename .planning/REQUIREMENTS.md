@@ -47,11 +47,11 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Features
 
-- [ ] **FEAT-01**: 2x2 grid layout on desktop, stacked single-column on mobile
-- [ ] **FEAT-02**: 4 feature cards: AI Calling, AI Texting, Appointment Setting, Live Transfers
-- [ ] **FEAT-03**: Each card has icon, heading, description, 3-5 benefit bullets, and product screenshot
-- [ ] **FEAT-04**: Cards animate with staggered fade-in + slide-up on scroll
-- [ ] **FEAT-05**: Hover state: scale 1.02 + shadow elevation increase
+- [x] **FEAT-01**: 2x2 grid layout on desktop, stacked single-column on mobile
+- [x] **FEAT-02**: 4 feature cards: AI Calling, AI Texting, Appointment Setting, Live Transfers
+- [x] **FEAT-03**: Each card has icon, heading, description, 3-5 benefit bullets, and product screenshot
+- [x] **FEAT-04**: Cards animate with staggered fade-in + slide-up on scroll
+- [x] **FEAT-05**: Hover state: scale 1.02 + shadow elevation increase
 
 ### CRM Integrations
 
@@ -165,11 +165,11 @@ Deferred to post-launch (first 30-90 days).
 | PROD-01 | Phase 3 | Pending |
 | PROD-02 | Phase 3 | Pending |
 | PROD-03 | Phase 3 | Pending |
-| FEAT-01 | Phase 3 | Pending |
-| FEAT-02 | Phase 3 | Pending |
-| FEAT-03 | Phase 3 | Pending |
-| FEAT-04 | Phase 3 | Pending |
-| FEAT-05 | Phase 3 | Pending |
+| FEAT-01 | Phase 3 | Complete |
+| FEAT-02 | Phase 3 | Complete |
+| FEAT-03 | Phase 3 | Complete |
+| FEAT-04 | Phase 3 | Complete |
+| FEAT-05 | Phase 3 | Complete |
 | CRM-01 | Phase 3 | Pending |
 | CRM-02 | Phase 3 | Pending |
 | CRM-03 | Phase 3 | Pending |
