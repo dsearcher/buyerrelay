@@ -169,13 +169,13 @@ function FeatureCard({ feature }: { feature: Feature }) {
       </ul>
 
       {/* Product screenshot */}
-      <div className="mt-auto rounded-[12px] overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+      <div className="mt-auto aspect-[16/10] rounded-[12px] overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 relative">
         <Image
           src={feature.screenshot}
           alt={feature.screenshotAlt}
-          width={600}
-          height={400}
-          className="w-full h-auto"
+          fill
+          className="object-cover object-top"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
       </div>
     </motion.div>
