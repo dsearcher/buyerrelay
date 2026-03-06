@@ -95,10 +95,10 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### SEO & Performance
 
-- [ ] **SEO-01**: Page title, meta description targeting "AI real estate lead generation" keywords
-- [ ] **SEO-02**: Open Graph tags with title, description, and OG image for link previews
-- [ ] **SEO-03**: Semantic HTML structure (proper heading hierarchy, landmarks, alt text)
-- [ ] **SEO-04**: Optimized images via next/image with proper sizing and lazy loading
+- [x] **SEO-01**: Page title, meta description targeting "AI real estate lead generation" keywords
+- [x] **SEO-02**: Open Graph tags with title, description, and OG image for link previews
+- [x] **SEO-03**: Semantic HTML structure (proper heading hierarchy, landmarks, alt text)
+- [x] **SEO-04**: Optimized images via next/image with proper sizing and lazy loading
 
 ## v2 Requirements
 
@@ -190,10 +190,10 @@ Deferred to post-launch (first 30-90 days).
 | CTA-02 | Phase 4 | Complete |
 | CTA-03 | Phase 4 | Complete |
 | CTA-04 | Phase 4 | Complete |
-| SEO-01 | Phase 5 | Pending |
-| SEO-02 | Phase 5 | Pending |
-| SEO-03 | Phase 5 | Pending |
-| SEO-04 | Phase 5 | Pending |
+| SEO-01 | Phase 5 | Complete |
+| SEO-02 | Phase 5 | Complete |
+| SEO-03 | Phase 5 | Complete |
+| SEO-04 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 52 total
