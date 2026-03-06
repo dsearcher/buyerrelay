@@ -29,11 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Tailwind utilities (`bg-primary`, `text-secondary`, `shadow-elevated`, pill button radii) produce brand-guide-compliant output
   3. A test scroll-reveal animation (fade-in, slide-up) triggers correctly on viewport entry
   4. The page renders correctly at 375px, 768px, and 1440px breakpoints with no horizontal overflow
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Scaffold Next.js 15, Tailwind v4 brand tokens, HeroUI provider, fonts
+- [ ] 01-02-PLAN.md -- Animation utilities (ScrollReveal, StaggerChildren, CountUp) and responsive SectionWrapper
 
 ### Phase 2: Structural Frame
 **Goal**: Visitors see a polished, professional first impression -- sticky navbar, compelling hero with animated chat mockup, and a complete footer
