@@ -41,6 +41,12 @@ button { cursor: pointer; }  /* Tailwind v4 changed buttons to cursor: default *
   background-clip: text;
 }
 
+/* Infinite marquee scroll animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 /* Typing indicator animation for chat mockup */
 @keyframes typing-dot {
   0%, 60%, 100% {
