@@ -75,11 +75,11 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Pricing
 
-- [ ] **PRIC-01**: 3-tier pricing cards: Starter ($299/mo), Professional ($499/mo, "Most Popular"), Enterprise (Custom)
-- [ ] **PRIC-02**: Professional tier highlighted with gradient border accent
-- [ ] **PRIC-03**: Each tier lists 5-7 included features with checkmarks
-- [ ] **PRIC-04**: "All plans include 14-day free trial" below tiers
-- [ ] **PRIC-05**: Enterprise card has "Contact Sales" CTA instead of price
+- [x] **PRIC-01**: 3-tier pricing cards: Starter ($299/mo), Professional ($499/mo, "Most Popular"), Enterprise (Custom)
+- [x] **PRIC-02**: Professional tier highlighted with gradient border accent
+- [x] **PRIC-03**: Each tier lists 5-7 included features with checkmarks
+- [x] **PRIC-04**: "All plans include 14-day free trial" below tiers
+- [x] **PRIC-05**: Enterprise card has "Contact Sales" CTA instead of price
 
 ### Final CTA
 
@@ -181,11 +181,11 @@ Deferred to post-launch (first 30-90 days).
 | COMP-02 | Phase 4 | Pending |
 | COMP-03 | Phase 4 | Pending |
 | COMP-04 | Phase 4 | Pending |
-| PRIC-01 | Phase 4 | Pending |
-| PRIC-02 | Phase 4 | Pending |
-| PRIC-03 | Phase 4 | Pending |
-| PRIC-04 | Phase 4 | Pending |
-| PRIC-05 | Phase 4 | Pending |
+| PRIC-01 | Phase 4 | Complete |
+| PRIC-02 | Phase 4 | Complete |
+| PRIC-03 | Phase 4 | Complete |
+| PRIC-04 | Phase 4 | Complete |
+| PRIC-05 | Phase 4 | Complete |
 | CTA-01 | Phase 4 | Pending |
 | CTA-02 | Phase 4 | Pending |
 | CTA-03 | Phase 4 | Pending |
