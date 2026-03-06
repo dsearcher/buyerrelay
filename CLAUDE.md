@@ -17,8 +17,9 @@ This project uses **Get Shit Done (GSD)** for spec-driven development with subag
 3. **`BRIEF.md`** — One-time input brief with section specs, content strategy, competitor data. Consumed by `/gsd:new-project`.
 4. **`.planning/`** — GSD-managed living state (PROJECT.md, REQUIREMENTS.md, ROADMAP.md, STATE.md). Created after init.
 
-> **Rule:** After GSD init, `.planning/` docs are the source of truth for project state.
-> BRIEF.md becomes archived reference. Never update BRIEF.md after GSD init — update GSD docs instead.
+> **Rule:** After `/gsd:new-project` completes, move the brief out of root:
+> `mv BRIEF.md .planning/BRIEF-ARCHIVED.md`
+> From that point, `.planning/` docs are the sole source of truth. Never reference BRIEF.md directly again.
 
 ## Always Do First
 - **Invoke the `frontend-design` skill** before writing any frontend code
