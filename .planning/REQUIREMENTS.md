@@ -55,9 +55,9 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### CRM Integrations
 
-- [ ] **CRM-01**: Left column with heading, subtitle, and 4 use-case badges (Old Leads, Rehashed Leads, New Leads Off Hours, Uncontacted Leads)
-- [ ] **CRM-02**: Right column with product screenshot (CRM sync timeline)
-- [ ] **CRM-03**: Below: 2-row logo grid (HubSpot, Follow Up Boss, BoomTown, Salesforce, Sierra, kvCORE, Firepoint, Chime)
+- [x] **CRM-01**: Left column with heading, subtitle, and 4 use-case badges (Old Leads, Rehashed Leads, New Leads Off Hours, Uncontacted Leads)
+- [x] **CRM-02**: Right column with product screenshot (CRM sync timeline)
+- [x] **CRM-03**: Below: 2-row logo grid (HubSpot, Follow Up Boss, BoomTown, Salesforce, Sierra, kvCORE, Firepoint, Chime)
 
 ### Testimonials
 
@@ -170,9 +170,9 @@ Deferred to post-launch (first 30-90 days).
 | FEAT-03 | Phase 3 | Complete |
 | FEAT-04 | Phase 3 | Complete |
 | FEAT-05 | Phase 3 | Complete |
-| CRM-01 | Phase 3 | Pending |
-| CRM-02 | Phase 3 | Pending |
-| CRM-03 | Phase 3 | Pending |
+| CRM-01 | Phase 3 | Complete |
+| CRM-02 | Phase 3 | Complete |
+| CRM-03 | Phase 3 | Complete |
 | TEST-01 | Phase 4 | Pending |
 | TEST-02 | Phase 4 | Pending |
 | TEST-03 | Phase 4 | Pending |
