@@ -79,13 +79,13 @@ Plans:
   2. Comparison table displays "With BuyerRelay" vs "Without BuyerRelay" in two columns with green checkmarks and gray X marks, columns animate in from sides on scroll
   3. Three pricing tiers display with Professional highlighted as "Most Popular" with gradient border; Enterprise shows "Contact Sales" instead of a price
   4. Final CTA section presents a lead capture form (name, email, phone, team size) with gradient submit button and trust badges below
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
-- [ ] 04-03: TBD
-- [ ] 04-04: TBD
+- [ ] 04-01-PLAN.md -- Testimonials carousel with 3 dark-bg cards, auto-rotation, gradient borders, highlighted metrics
+- [ ] 04-02-PLAN.md -- Comparison table "Ditch the Status Quo" with 2-column checkmark vs X layout, slide-in animation
+- [ ] 04-03-PLAN.md -- Pricing cards (Starter $299, Professional $499 highlighted, Enterprise custom) with feature lists
+- [ ] 04-04-PLAN.md -- Final CTA with dark bg, lead capture form (4 fields), gradient submit button, trust badges
 
 ### Phase 5: Polish and Deploy
 **Goal**: The site is production-ready -- optimized for search engines, performant on all devices, and deployed to a live Vercel URL
