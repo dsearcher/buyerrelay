@@ -13,8 +13,8 @@ Requirements for initial launch. Each maps to roadmap phases.
 - [x] **FOUN-02**: HeroUI v2 provider configured with @plugin directive and brand color mapping
 - [x] **FOUN-03**: Outfit (headings) and Inter (body) fonts loaded via next/font with correct weights
 - [x] **FOUN-04**: Brand design tokens implemented in Tailwind @theme (colors, shadows, spacing, radii from brand-guide.md)
-- [ ] **FOUN-05**: Reusable Motion.dev scroll-reveal animation components (fade-in, slide-up, stagger)
-- [ ] **FOUN-06**: Responsive layout system tested at 375px, 768px, and 1440px breakpoints
+- [x] **FOUN-05**: Reusable Motion.dev scroll-reveal animation components (fade-in, slide-up, stagger)
+- [x] **FOUN-06**: Responsive layout system tested at 375px, 768px, and 1440px breakpoints
 
 ### Navigation
 
@@ -144,8 +144,8 @@ Deferred to post-launch (first 30-90 days).
 | FOUN-02 | Phase 1 | Complete |
 | FOUN-03 | Phase 1 | Complete |
 | FOUN-04 | Phase 1 | Complete |
-| FOUN-05 | Phase 1 | Pending |
-| FOUN-06 | Phase 1 | Pending |
+| FOUN-05 | Phase 1 | Complete |
+| FOUN-06 | Phase 1 | Complete |
 | NAV-01 | Phase 2 | Pending |
 | NAV-02 | Phase 2 | Pending |
 | NAV-03 | Phase 2 | Pending |
