@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'motion/react';
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import {
@@ -96,22 +97,14 @@ export function CRMIntegrations() {
 
         {/* Right column - Screenshot placeholder */}
         <motion.div {...slideInRight}>
-          <div className="aspect-[4/3] rounded-[16px] bg-gradient-to-br from-primary/5 to-accent/5 shadow-brand-lg flex flex-col items-center justify-center gap-4">
-            {/* Simple timeline sketch */}
-            <div className="flex flex-col gap-3">
-              {[0, 1, 2].map((i) => (
-                <div key={i} className="flex items-center gap-3">
-                  <div className="w-3 h-3 rounded-full bg-primary/30" />
-                  <div
-                    className="h-2 rounded-full bg-primary/10"
-                    style={{ width: `${120 - i * 20}px` }}
-                  />
-                </div>
-              ))}
-            </div>
-            <span className="text-text-muted text-sm font-medium mt-2">
-              CRM Sync Timeline
-            </span>
+          <div className="rounded-[16px] overflow-hidden shadow-brand-lg">
+            <Image
+              src="/screenshots/crm-sync.png"
+              alt="BuyerRelay CRM sync timeline showing lead qualification and handoff to agent"
+              width={700}
+              height={400}
+              className="w-full h-auto"
+            />
           </div>
         </motion.div>
       </div>

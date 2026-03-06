@@ -63,11 +63,11 @@ export function Footer() {
         {/* Column 1: Brand */}
         <div className="sm:col-span-2 lg:col-span-1">
           <Image
-            src="/logo.png"
+            src="/logo-white.png"
             alt="BuyerRelay"
             width={140}
-            height={36}
-            className="h-9 w-auto brightness-0 invert mb-4"
+            height={40}
+            className="h-9 w-auto mb-4"
           />
           <p className="text-sm text-gray-400 mb-6 max-w-xs">
             AI-powered lead conversion for real estate agents. Turn every lead into a booked appointment.

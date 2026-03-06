@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'motion/react';
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
@@ -29,6 +30,8 @@ interface Feature {
   heading: string;
   description: string;
   bullets: string[];
+  screenshot: string;
+  screenshotAlt: string;
 }
 
 const PhoneIcon = () => (
@@ -73,6 +76,8 @@ const features: Feature[] = [
       'Handles objections intelligently',
       'Transfers hot leads to you live',
     ],
+    screenshot: '/screenshots/mobile-app.png',
+    screenshotAlt: 'BuyerRelay mobile notification showing warm buyer ready to tour',
   },
   {
     icon: <MessageIcon />,
@@ -85,6 +90,8 @@ const features: Feature[] = [
       'Understands natural language',
       'Seamless handoff to agent',
     ],
+    screenshot: '/screenshots/ai-conversation.png',
+    screenshotAlt: 'BuyerRelay AI conversation qualifying a lead with intent scoring',
   },
   {
     icon: <CalendarIcon />,
@@ -97,6 +104,8 @@ const features: Feature[] = [
       'Reschedules automatically',
       'Pre-qualifies before booking',
     ],
+    screenshot: '/screenshots/features-dashboard.png',
+    screenshotAlt: 'BuyerRelay dashboard showing lead funnel from inquiry to booked appointment',
   },
   {
     icon: <TransferIcon />,
@@ -109,6 +118,8 @@ const features: Feature[] = [
       'No missed opportunities',
       'Full conversation history',
     ],
+    screenshot: '/screenshots/crm-sync.png',
+    screenshotAlt: 'BuyerRelay CRM sync timeline showing lead handoff to agent',
   },
 ];
 
@@ -157,9 +168,15 @@ function FeatureCard({ feature }: { feature: Feature }) {
         ))}
       </ul>
 
-      {/* Screenshot placeholder */}
-      <div className="mt-auto aspect-[4/3] rounded-[12px] bg-gradient-to-br from-primary/5 to-accent/5 flex items-center justify-center">
-        <span className="text-text-muted text-sm font-body">Screenshot</span>
+      {/* Product screenshot */}
+      <div className="mt-auto rounded-[12px] overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+        <Image
+          src={feature.screenshot}
+          alt={feature.screenshotAlt}
+          width={600}
+          height={400}
+          className="w-full h-auto"
+        />
       </div>
     </motion.div>
   );
