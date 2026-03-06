@@ -1,7 +1,7 @@
 # CLAUDE.md - AI Real Estate Lead Platform Website
 
 ## Project Overview
-Building a professional, conversion-focused website for an AI-powered real estate lead management platform entering the US market. Full specification is in `WEBSITE_BLUEPRINT.md`.
+Building a professional, conversion-focused website for an AI-powered real estate lead management platform entering the US market. Full specification is in `BRIEF.md`.
 
 ## GSD Workflow
 This project uses **Get Shit Done (GSD)** for spec-driven development with subagent orchestration. All build work goes through GSD commands:
@@ -11,14 +11,19 @@ This project uses **Get Shit Done (GSD)** for spec-driven development with subag
 - `/gsd:execute-phase N` to build with parallel subagents
 - `/gsd:verify-work N` for user acceptance testing
 
-## Key Reference Files
-- `WEBSITE_BLUEPRINT.md` — Complete site specification (sections, design system, colors, typography, animations, content)
-- `.planning/` — GSD-managed project state (created after /gsd:new-project)
+## Document Hierarchy (no duplication)
+1. **`CLAUDE.md`** (this file) — Runtime config. Always loaded. Single source of truth for stack, brand, rules.
+2. **`brand_assets/brand-guide.md`** — Design tokens (colors, typography, shadows, spacing). Referenced during UI build.
+3. **`BRIEF.md`** — One-time input brief with section specs, content strategy, competitor data. Consumed by `/gsd:new-project`.
+4. **`.planning/`** — GSD-managed living state (PROJECT.md, REQUIREMENTS.md, ROADMAP.md, STATE.md). Created after init.
+
+> **Rule:** After GSD init, `.planning/` docs are the source of truth for project state.
+> BRIEF.md becomes archived reference. Never update BRIEF.md after GSD init — update GSD docs instead.
 
 ## Always Do First
 - **Invoke the `frontend-design` skill** before writing any frontend code
 - Check `brand_assets/` folder for logo, colors, and brand guidelines
-- Read `WEBSITE_BLUEPRINT.md` for detailed section specifications
+- Read `BRIEF.md` for detailed section specifications
 
 ## Tech Stack
 - **Framework:** Next.js 15 (App Router) + TypeScript
@@ -107,7 +112,7 @@ Claude MUST use subagents (Agent tool) for:
 
 ## Session Start Checklist
 When starting a new session on this project:
-1. Read `WEBSITE_BLUEPRINT.md` for full context
+1. Read `BRIEF.md` for full context
 2. Run `/gsd:progress` to see current state
 3. Run `/gsd:resume-work` if mid-phase
 4. Use `/clear` between major phases for fresh context
