@@ -5,14 +5,14 @@ import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { slideInLeft, slideInRight, staggerContainer, staggerItem } from '@/lib/animations';
 
 const comparisonRows = [
-  { with: 'Two-way AI text conversations', without: 'One-way blast texts' },
-  { with: '24/7 instant lead response', without: 'Leads wait hours for callback' },
-  { with: 'AI qualifies before handoff', without: 'Agents waste time on cold leads' },
-  { with: 'Smart appointment scheduling', without: 'Manual back-and-forth booking' },
-  { with: 'Automated lead nurturing', without: 'Leads fall through the cracks' },
-  { with: 'Live call transfers to agents', without: 'Voicemail tag for days' },
-  { with: 'CRM auto-sync on every touch', without: 'Manual data entry after calls' },
-  { with: 'Consistent follow-up on every lead', without: 'Cherry-picking only hot leads' },
+  { with: 'Lead gets a text in 10 seconds', without: 'Lead waits 6 hours for a callback' },
+  { with: 'AI qualifies before you get involved', without: 'You spend 20 min on a tire-kicker' },
+  { with: 'Real conversations, not blast texts', without: 'One-way texts they ignore' },
+  { with: 'Appointments land on your calendar', without: 'Phone tag for 3 days straight' },
+  { with: 'Dead leads get re-engaged automatically', without: 'Thousands of leads sitting untouched' },
+  { with: 'Hot leads transferred to you live', without: 'Voicemail → they called someone else' },
+  { with: 'Every interaction synced to your CRM', without: 'Manual data entry after every call' },
+  { with: '24/7 coverage — nights, weekends, holidays', without: 'Leads go cold while you sleep' },
 ];
 
 function CheckIcon() {
@@ -69,7 +69,7 @@ export function Comparison() {
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          Ditch the Status Quo
+          Still Chasing Leads Manually?
         </motion.h2>
         <motion.p
           className="mx-auto mt-4 max-w-2xl text-base text-text-secondary md:text-lg"
@@ -78,7 +78,7 @@ export function Comparison() {
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.15 }}
         >
-          See why top-producing agents are switching to AI-powered lead conversion
+          Here&apos;s what changes when AI handles your speed-to-lead
         </motion.p>
       </div>
 

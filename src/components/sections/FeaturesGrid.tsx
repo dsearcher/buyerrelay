@@ -69,12 +69,12 @@ const features: Feature[] = [
     icon: <PhoneIcon />,
     heading: 'AI-Powered Calling',
     description:
-      'Instantly call every lead with a human-sounding AI agent that qualifies and books appointments 24/7.',
+      'Your leads get a human-sounding call within 60 seconds — while they\'re still on the listing page.',
     bullets: [
-      'Calls within 60 seconds of inquiry',
-      'Natural conversation flow',
-      'Handles objections intelligently',
-      'Transfers hot leads to you live',
+      'Calls before competitors even see the lead',
+      'Natural conversation — not a robocall',
+      'Handles "I\'m just looking" objections',
+      'Hot leads transfer to you live, mid-call',
     ],
     screenshot: '/screenshots/mobile-app.png',
     screenshotAlt: 'BuyerRelay mobile notification showing warm buyer ready to tour',
@@ -83,12 +83,12 @@ const features: Feature[] = [
     icon: <MessageIcon />,
     heading: 'Intelligent Text Conversations',
     description:
-      'Two-way AI texting that nurtures leads with personalized follow-ups until they\'re ready to meet.',
+      'Real two-way conversations — not blast texts. Leads think they\'re texting your assistant.',
     bullets: [
-      'Personalized to listing interest',
-      'Smart follow-up cadence',
-      'Understands natural language',
-      'Seamless handoff to agent',
+      'References the exact listing they viewed',
+      'Follows up at the right time, every time',
+      'Reads intent — knows when to push, when to wait',
+      'Warm handoff when they\'re ready to talk',
     ],
     screenshot: '/screenshots/ai-conversation.png',
     screenshotAlt: 'BuyerRelay AI conversation qualifying a lead with intent scoring',
@@ -97,12 +97,12 @@ const features: Feature[] = [
     icon: <CalendarIcon />,
     heading: 'Automated Appointment Setting',
     description:
-      'Qualified leads get booked directly onto your calendar -- no back-and-forth scheduling.',
+      'No more phone tag. Qualified buyers land directly on your calendar — pre-screened and ready.',
     bullets: [
-      'Syncs with your calendar',
-      'Sends confirmation and reminders',
-      'Reschedules automatically',
-      'Pre-qualifies before booking',
+      'Syncs with Google, Outlook, iCal',
+      'Sends reminders so they actually show up',
+      'Reschedules no-shows automatically',
+      'You only meet pre-qualified buyers',
     ],
     screenshot: '/screenshots/features-dashboard.png',
     screenshotAlt: 'BuyerRelay dashboard showing lead funnel from inquiry to booked appointment',
@@ -111,12 +111,12 @@ const features: Feature[] = [
     icon: <TransferIcon />,
     heading: 'Live Call Transfers',
     description:
-      'When a lead is ready to talk, BuyerRelay transfers them directly to you with full context.',
+      'The moment a lead says "I\'m ready" — you\'re on the phone with them, full context in hand.',
     bullets: [
-      'Warm transfer with lead summary',
-      'Real-time availability check',
-      'No missed opportunities',
-      'Full conversation history',
+      'Lead summary delivered before you say hello',
+      'Only transfers when you\'re available',
+      'Catches buyers at peak motivation',
+      'Every text and call logged in your CRM',
     ],
     screenshot: '/screenshots/crm-sync.png',
     screenshotAlt: 'BuyerRelay CRM sync timeline showing lead handoff to agent',
@@ -191,11 +191,10 @@ export function FeaturesGrid() {
           className="font-heading text-[32px] md:text-[40px] font-bold text-text-primary mb-4"
           style={{ letterSpacing: '-0.02em', lineHeight: '1.2' }}
         >
-          Everything You Need to Convert Leads
+          One AI. Four Ways to Close.
         </h2>
         <p className="font-body text-[16px] md:text-[18px] text-text-secondary max-w-2xl mx-auto leading-relaxed">
-          BuyerRelay handles the entire lead journey -- from first contact to
-          booked appointment
+          Every lead gets called, texted, qualified, and booked — without you lifting a finger
         </p>
       </ScrollReveal>
 

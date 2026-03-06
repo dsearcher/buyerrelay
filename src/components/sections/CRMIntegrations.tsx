@@ -70,11 +70,10 @@ export function CRMIntegrations() {
             Integrations
           </span>
           <h2 className="font-heading text-[40px] font-bold tracking-[-0.02em] leading-[1.2] text-text-primary mt-4">
-            Works With Your CRM
+            Plugs Into Your Stack in 5 Minutes
           </h2>
           <p className="text-text-secondary text-lg leading-relaxed mt-4 max-w-lg">
-            BuyerRelay plugs into your existing tech stack. Import leads from
-            any source and sync results back automatically.
+            No migration headaches. BuyerRelay syncs with your CRM — leads flow in, qualified appointments flow out. Zero manual data entry.
           </p>
 
           {/* Use-case badges */}

@@ -53,10 +53,10 @@ export function ProductOverview() {
           <h2
             className="font-heading text-[32px] md:text-[40px] font-bold leading-tight tracking-[-0.02em] text-text-primary mb-4"
           >
-            See How It Works
+            From Lead to Booked — In Under 2 Minutes
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Watch BuyerRelay convert a cold lead into a booked appointment in under 2 minutes
+            New lead comes in. AI responds instantly. Qualifies, nurtures, and books the appointment — before your coffee gets cold.
           </p>
         </div>
       </ScrollReveal>

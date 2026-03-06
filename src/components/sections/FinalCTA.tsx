@@ -79,10 +79,10 @@ export function FinalCTA() {
         {/* Heading */}
         <ScrollReveal>
           <h2 className="font-outfit text-[clamp(28px,5vw,40px)] font-bold leading-tight tracking-[-0.02em] text-white">
-            Ready to Convert More Leads?
+            Your Leads Are Waiting. Literally.
           </h2>
           <p className="mt-4 text-lg text-slate-300">
-            Join 500+ real estate professionals using AI to close more deals
+            Every minute without AI follow-up is a lead going to your competitor. Book a demo and see the difference in 48 hours.
           </p>
         </ScrollReveal>
 

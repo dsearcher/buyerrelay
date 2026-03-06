@@ -16,24 +16,24 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote:
-      "BuyerRelay's AI texting reactivated leads we'd written off months ago. Within the first 60 days, our pipeline exploded with opportunities we thought were dead.",
-    metric: '$2.4M in pipeline reactivated',
+      "We had 2,000 dead leads sitting in Follow Up Boss. BuyerRelay re-engaged them in a week. 47 booked appointments from leads we'd completely written off.",
+    metric: '$2.4M in pipeline from "dead" leads',
     authorName: 'Sarah Mitchell',
     authorTitle: 'Team Lead, Keller Williams Orlando',
     initials: 'SM',
   },
   {
     quote:
-      "We used to spend 3 hours a day chasing callbacks. Now BuyerRelay handles qualification and books appointments directly on our calendars. Our agents focus on closing.",
-    metric: '34% more appointments booked',
+      "I fired my ISA and replaced them with BuyerRelay. My cost per appointment dropped 80%, and my agents stopped wasting mornings chasing voicemails.",
+    metric: '34% more appointments at 1/5th the cost',
     authorName: 'James Rodriguez',
     authorTitle: 'Broker, RE/MAX Coastal',
     initials: 'JR',
   },
   {
     quote:
-      "The live transfer feature is a game-changer. Buyers connect with us at peak motivation, and our average close time dropped dramatically compared to industry benchmarks.",
-    metric: '22-day avg close vs 45-day industry avg',
+      "A buyer came in at 11pm on a Saturday. BuyerRelay qualified her and booked a showing for Monday morning. That deal closed in 18 days — $890K.",
+    metric: '$890K closed from an 11pm lead',
     authorName: 'Michelle Chen',
     authorTitle: 'Managing Partner, Compass NYC',
     initials: 'MC',
@@ -180,10 +180,10 @@ export function Testimonials() {
               letterSpacing: '-0.03em',
             }}
           >
-            What Agents Are Saying
+            Don&apos;t Take Our Word For It
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg" style={{ color: '#94A3B8' }}>
-            Real results from real estate professionals using BuyerRelay
+            These agents stopped chasing leads. Their numbers speak for themselves.
           </p>
         </div>
 

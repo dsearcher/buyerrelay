@@ -3,12 +3,12 @@
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 
 const statQuotes = [
-  'Appointments lifted by 20-50%',
-  '$72M in transactions closed',
-  '31% higher answer rate',
-  'AI responds in under 5 seconds',
-  '500+ agents trust BuyerRelay',
-  '17% more qualified leads',
+  '20-50% more appointments booked',
+  '$72M in pipeline generated',
+  '10-second avg first response',
+  '31% higher answer rate than manual',
+  'Replacing ISAs at 1/10th the cost',
+  '17% more qualified handoffs',
 ];
 
 const integrationLogos = [

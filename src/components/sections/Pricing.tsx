@@ -213,10 +213,10 @@ export function Pricing() {
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="font-heading text-4xl md:text-[40px] font-bold text-[#0F172A] tracking-[-0.02em]">
-          Simple, Transparent Pricing
+          Less Than Your Worst ISA. Better Than Your Best.
         </h2>
         <p className="mt-4 text-lg text-[#475569] max-w-2xl mx-auto">
-          Start converting more leads today. No setup fees, cancel anytime.
+          No setup fees. No contracts. Start free for 14 days — cancel if we don&apos;t book you appointments.
         </p>
       </div>
 

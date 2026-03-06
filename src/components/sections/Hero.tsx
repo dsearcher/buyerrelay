@@ -58,15 +58,13 @@ export function Hero() {
 
             {/* H1 */}
             <h1 className="font-[var(--font-heading)] text-4xl sm:text-5xl lg:text-[56px] font-extrabold tracking-[-0.03em] leading-[1.1] text-[var(--color-text-primary)]">
-              Turn Cold Leads Into{' '}
-              <span className="gradient-text">Closed Deals</span>
+              Your Leads Reply.{' '}
+              <span className="gradient-text">Your Calendar Fills.</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-[var(--color-text-secondary)] text-lg md:text-xl leading-relaxed mt-6 max-w-[540px]">
-              BuyerRelay instantly responds to your leads, qualifies them via AI
-              text and call, nurtures automatically, and delivers ready-to-close
-              buyers straight to your calendar.
+              BuyerRelay texts, calls, and qualifies every lead in under 10 seconds — then books the serious ones straight onto your calendar. You just show up and close.
             </p>
 
             {/* CTA buttons */}
@@ -99,7 +97,7 @@ export function Hero() {
                   clipRule="evenodd"
                 />
               </svg>
-              Trusted by 500+ real estate agents
+              Replacing ISAs for 500+ agents nationwide
             </p>
           </ScrollReveal>
 
