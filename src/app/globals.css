@@ -30,6 +30,7 @@
 }
 
 /* Global resets */
+html { scroll-behavior: smooth; }
 button { cursor: pointer; }  /* Tailwind v4 changed buttons to cursor: default */
 
 /* Gradient text utility */
