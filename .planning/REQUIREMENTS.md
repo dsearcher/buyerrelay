@@ -83,10 +83,10 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Final CTA
 
-- [ ] **CTA-01**: Dark background section with "Ready to Convert More Leads?" headline
-- [ ] **CTA-02**: Lead capture form: Name, Email, Phone, Team Size (placeholder — no backend submission)
-- [ ] **CTA-03**: Gradient "Book Your Demo" CTA button
-- [ ] **CTA-04**: Trust badges below form ("Trusted by 500+ agents", security signals)
+- [x] **CTA-01**: Dark background section with "Ready to Convert More Leads?" headline
+- [x] **CTA-02**: Lead capture form: Name, Email, Phone, Team Size (placeholder — no backend submission)
+- [x] **CTA-03**: Gradient "Book Your Demo" CTA button
+- [x] **CTA-04**: Trust badges below form ("Trusted by 500+ agents", security signals)
 
 ### Footer
 
@@ -186,10 +186,10 @@ Deferred to post-launch (first 30-90 days).
 | PRIC-03 | Phase 4 | Complete |
 | PRIC-04 | Phase 4 | Complete |
 | PRIC-05 | Phase 4 | Complete |
-| CTA-01 | Phase 4 | Pending |
-| CTA-02 | Phase 4 | Pending |
-| CTA-03 | Phase 4 | Pending |
-| CTA-04 | Phase 4 | Pending |
+| CTA-01 | Phase 4 | Complete |
+| CTA-02 | Phase 4 | Complete |
+| CTA-03 | Phase 4 | Complete |
+| CTA-04 | Phase 4 | Complete |
 | SEO-01 | Phase 5 | Pending |
 | SEO-02 | Phase 5 | Pending |
 | SEO-03 | Phase 5 | Pending |
