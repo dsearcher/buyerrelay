@@ -4,6 +4,8 @@ import { SocialProof } from '@/components/sections/SocialProof';
 import { ProductOverview } from '@/components/sections/ProductOverview';
 import { FeaturesGrid } from '@/components/sections/FeaturesGrid';
 import { CRMIntegrations } from '@/components/sections/CRMIntegrations';
+import { Comparison } from '@/components/sections/Comparison';
+import { Pricing } from '@/components/sections/Pricing';
 import { Footer } from '@/components/sections/Footer';
 
 export default function HomePage() {
@@ -17,7 +19,8 @@ export default function HomePage() {
         <FeaturesGrid />
         <CRMIntegrations />
         {/* Phase 4: Conversion sections */}
-        <section id="pricing" className="min-h-[200px]" />
+        <Comparison />
+        <Pricing />
         <section id="cta" className="min-h-[200px]" />
       </main>
       <Footer />
