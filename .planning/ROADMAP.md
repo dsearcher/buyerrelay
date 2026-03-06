@@ -110,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-06 |
-| 2. Structural Frame | 0/2 | Not started | - |
+| 2. Structural Frame | 1/2 | In Progress|  |
 | 3. Content Sections | 0/4 | Not started | - |
 | 4. Conversion Sections | 0/4 | Not started | - |
 | 5. Polish and Deploy | 0/2 | Not started | - |

@@ -18,10 +18,10 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Navigation
 
-- [ ] **NAV-01**: Sticky navbar with blur backdrop effect using HeroUI Navbar
-- [ ] **NAV-02**: Logo (left), nav links center (How It Works, Features, Pricing), CTAs right ("Login" ghost, "Book a Demo" primary pill)
-- [ ] **NAV-03**: Mobile hamburger menu with slide-out navigation
-- [ ] **NAV-04**: Smooth scroll to section anchors on nav link click
+- [x] **NAV-01**: Sticky navbar with blur backdrop effect using HeroUI Navbar
+- [x] **NAV-02**: Logo (left), nav links center (How It Works, Features, Pricing), CTAs right ("Login" ghost, "Book a Demo" primary pill)
+- [x] **NAV-03**: Mobile hamburger menu with slide-out navigation
+- [x] **NAV-04**: Smooth scroll to section anchors on nav link click
 
 ### Hero
 
@@ -90,8 +90,8 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Footer
 
-- [ ] **FOOT-01**: 4-column layout: Logo + socials, Product links, Resources links, Company + Legal
-- [ ] **FOOT-02**: Copyright and legal links at bottom
+- [x] **FOOT-01**: 4-column layout: Logo + socials, Product links, Resources links, Company + Legal
+- [x] **FOOT-02**: Copyright and legal links at bottom
 
 ### SEO & Performance
 
@@ -146,10 +146,10 @@ Deferred to post-launch (first 30-90 days).
 | FOUN-04 | Phase 1 | Complete |
 | FOUN-05 | Phase 1 | Complete |
 | FOUN-06 | Phase 1 | Complete |
-| NAV-01 | Phase 2 | Pending |
-| NAV-02 | Phase 2 | Pending |
-| NAV-03 | Phase 2 | Pending |
-| NAV-04 | Phase 2 | Pending |
+| NAV-01 | Phase 2 | Complete |
+| NAV-02 | Phase 2 | Complete |
+| NAV-03 | Phase 2 | Complete |
+| NAV-04 | Phase 2 | Complete |
 | HERO-01 | Phase 2 | Pending |
 | HERO-02 | Phase 2 | Pending |
 | HERO-03 | Phase 2 | Pending |
@@ -157,8 +157,8 @@ Deferred to post-launch (first 30-90 days).
 | HERO-05 | Phase 2 | Pending |
 | HERO-06 | Phase 2 | Pending |
 | HERO-07 | Phase 2 | Pending |
-| FOOT-01 | Phase 2 | Pending |
-| FOOT-02 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Complete |
+| FOOT-02 | Phase 2 | Complete |
 | SOCL-01 | Phase 3 | Pending |
 | SOCL-02 | Phase 3 | Pending |
 | SOCL-03 | Phase 3 | Pending |
