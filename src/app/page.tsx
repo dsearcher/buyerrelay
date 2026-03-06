@@ -7,6 +7,7 @@ import { CRMIntegrations } from '@/components/sections/CRMIntegrations';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { Comparison } from '@/components/sections/Comparison';
 import { Pricing } from '@/components/sections/Pricing';
+import { FinalCTA } from '@/components/sections/FinalCTA';
 import { Footer } from '@/components/sections/Footer';
 
 export default function HomePage() {
@@ -20,9 +21,10 @@ export default function HomePage() {
         <FeaturesGrid />
         <CRMIntegrations />
         {/* Phase 4: Conversion sections */}
+        <Testimonials />
         <Comparison />
         <Pricing />
-        <section id="cta" className="min-h-[200px]" />
+        <FinalCTA />
       </main>
       <Footer />
     </>
