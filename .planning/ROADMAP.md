@@ -45,12 +45,11 @@ Plans:
   3. Chat mockup auto-types a realistic lead qualification conversation with sequential bubble animations
   4. Clicking any nav link smooth-scrolls to the corresponding section anchor
   5. Footer displays 4-column layout with logo, nav groups, and legal links
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+- [ ] 02-01-PLAN.md -- Navbar with sticky blur backdrop + mobile menu, Footer with 4-column layout, page shell wiring
+- [ ] 02-02-PLAN.md -- Hero section with gradient background, headline + CTAs, animated ChatMockup with typing effect
 
 ### Phase 3: Content Sections
 **Goal**: Below-the-fold content establishes credibility and showcases product capabilities -- visitors understand what BuyerRelay does and what it integrates with
@@ -110,8 +109,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Complete    | 2026-03-06 |
-| 2. Structural Frame | 0/3 | Not started | - |
+| 1. Foundation | 2/2 | Complete    | 2026-03-06 |
+| 2. Structural Frame | 0/2 | Not started | - |
 | 3. Content Sections | 0/4 | Not started | - |
 | 4. Conversion Sections | 0/4 | Not started | - |
 | 5. Polish and Deploy | 0/2 | Not started | - |
