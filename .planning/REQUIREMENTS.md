@@ -25,13 +25,13 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Hero
 
-- [ ] **HERO-01**: 2-column layout — headline + CTAs left (55%), product visual right (45%)
-- [ ] **HERO-02**: Gradient text effect on "Closed Deals" in headline (blue-to-purple)
-- [ ] **HERO-03**: Two CTAs: "Book a Demo" (primary solid pill) and "See It In Action" (secondary outline)
-- [ ] **HERO-04**: Animated AI chat mockup showing lead qualification conversation with auto-typing effect
-- [ ] **HERO-05**: "Try the AI" phone input below chat mockup (placeholder — scrolls to final CTA)
-- [ ] **HERO-06**: Subtle radial gradient background with visual texture
-- [ ] **HERO-07**: Hero stacks vertically on mobile with chat mockup below headline
+- [x] **HERO-01**: 2-column layout — headline + CTAs left (55%), product visual right (45%)
+- [x] **HERO-02**: Gradient text effect on "Closed Deals" in headline (blue-to-purple)
+- [x] **HERO-03**: Two CTAs: "Book a Demo" (primary solid pill) and "See It In Action" (secondary outline)
+- [x] **HERO-04**: Animated AI chat mockup showing lead qualification conversation with auto-typing effect
+- [x] **HERO-05**: "Try the AI" phone input below chat mockup (placeholder — scrolls to final CTA)
+- [x] **HERO-06**: Subtle radial gradient background with visual texture
+- [x] **HERO-07**: Hero stacks vertically on mobile with chat mockup below headline
 
 ### Social Proof
 
@@ -150,13 +150,13 @@ Deferred to post-launch (first 30-90 days).
 | NAV-02 | Phase 2 | Complete |
 | NAV-03 | Phase 2 | Complete |
 | NAV-04 | Phase 2 | Complete |
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
-| HERO-04 | Phase 2 | Pending |
-| HERO-05 | Phase 2 | Pending |
-| HERO-06 | Phase 2 | Pending |
-| HERO-07 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
+| HERO-04 | Phase 2 | Complete |
+| HERO-05 | Phase 2 | Complete |
+| HERO-06 | Phase 2 | Complete |
+| HERO-07 | Phase 2 | Complete |
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
 | SOCL-01 | Phase 3 | Pending |

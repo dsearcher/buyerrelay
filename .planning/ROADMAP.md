@@ -13,7 +13,7 @@ A 5-phase build of a single-page, conversion-focused marketing website. Phase 1 
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Project scaffolding, brand tokens, fonts, HeroUI provider, animation utilities (completed 2026-03-06)
-- [ ] **Phase 2: Structural Frame** - Navbar, hero section, and footer (page shell + highest-impact section)
+- [x] **Phase 2: Structural Frame** - Navbar, hero section, and footer (page shell + highest-impact section) (completed 2026-03-06)
 - [ ] **Phase 3: Content Sections** - Social proof, product overview, features grid, CRM integrations (parallelizable)
 - [ ] **Phase 4: Conversion Sections** - Testimonials, comparison table, pricing, final CTA (parallelizable)
 - [ ] **Phase 5: Polish and Deploy** - SEO meta tags, responsive QA, performance optimization, Vercel deployment
@@ -110,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-06 |
-| 2. Structural Frame | 1/2 | In Progress|  |
+| 2. Structural Frame | 2/2 | Complete   | 2026-03-06 |
 | 3. Content Sections | 0/4 | Not started | - |
 | 4. Conversion Sections | 0/4 | Not started | - |
 | 5. Polish and Deploy | 0/2 | Not started | - |
