@@ -61,17 +61,17 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Testimonials
 
-- [ ] **TEST-01**: 3-card carousel with auto-rotation and navigation arrows
-- [ ] **TEST-02**: Dark background cards (#0F172A) with gradient accent border
-- [ ] **TEST-03**: Each card: quote icon, bold quote text, author photo (circle), name + title, highlighted metric in accent color
-- [ ] **TEST-04**: Placeholder testimonials with realistic but conservative metrics
+- [x] **TEST-01**: 3-card carousel with auto-rotation and navigation arrows
+- [x] **TEST-02**: Dark background cards (#0F172A) with gradient accent border
+- [x] **TEST-03**: Each card: quote icon, bold quote text, author photo (circle), name + title, highlighted metric in accent color
+- [x] **TEST-04**: Placeholder testimonials with realistic but conservative metrics
 
 ### Comparison
 
-- [ ] **COMP-01**: "Ditch the Status Quo" heading (Verse.ai pattern)
-- [ ] **COMP-02**: 2-column layout: "With BuyerRelay" (green checkmarks) vs "Without BuyerRelay" (gray X marks)
-- [ ] **COMP-03**: 7-8 comparison rows (two-way text vs one-way blasts, 24/7 AI vs manual follow up, etc.)
-- [ ] **COMP-04**: Columns animate by sliding in from sides on scroll
+- [x] **COMP-01**: "Ditch the Status Quo" heading (Verse.ai pattern)
+- [x] **COMP-02**: 2-column layout: "With BuyerRelay" (green checkmarks) vs "Without BuyerRelay" (gray X marks)
+- [x] **COMP-03**: 7-8 comparison rows (two-way text vs one-way blasts, 24/7 AI vs manual follow up, etc.)
+- [x] **COMP-04**: Columns animate by sliding in from sides on scroll
 
 ### Pricing
 
@@ -173,14 +173,14 @@ Deferred to post-launch (first 30-90 days).
 | CRM-01 | Phase 3 | Complete |
 | CRM-02 | Phase 3 | Complete |
 | CRM-03 | Phase 3 | Complete |
-| TEST-01 | Phase 4 | Pending |
-| TEST-02 | Phase 4 | Pending |
-| TEST-03 | Phase 4 | Pending |
-| TEST-04 | Phase 4 | Pending |
-| COMP-01 | Phase 4 | Pending |
-| COMP-02 | Phase 4 | Pending |
-| COMP-03 | Phase 4 | Pending |
-| COMP-04 | Phase 4 | Pending |
+| TEST-01 | Phase 4 | Complete |
+| TEST-02 | Phase 4 | Complete |
+| TEST-03 | Phase 4 | Complete |
+| TEST-04 | Phase 4 | Complete |
+| COMP-01 | Phase 4 | Complete |
+| COMP-02 | Phase 4 | Complete |
+| COMP-03 | Phase 4 | Complete |
+| COMP-04 | Phase 4 | Complete |
 | PRIC-01 | Phase 4 | Complete |
 | PRIC-02 | Phase 4 | Complete |
 | PRIC-03 | Phase 4 | Complete |
