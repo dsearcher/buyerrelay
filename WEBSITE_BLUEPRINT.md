@@ -13,9 +13,9 @@
 3. **Ylopo** (ylopo.com) - Best social proof and testimonial format
 4. **LocalizeOS** (localizeos.com) - Best enterprise logo wall
 
-**Build Method:** AI-assisted vibe coding pipeline (Claude Code + frontend-design skill + screenshot loop)
+**Build Method:** GSD (Get Shit Done) spec-driven development with subagent orchestration + frontend-design skill
 
-**Target Timeline:** 3-5 days from brief to production
+**Target Timeline:** 3-5 days from `/gsd:new-project` to production
 
 ---
 
@@ -29,7 +29,7 @@ Language:       TypeScript
 Styling:        Tailwind CSS v4
 UI Components:  Hero UI (formerly NextUI) - Apple-like glassmorphism
 Animations:     Motion.dev (Framer Motion) - scroll-triggered
-Fonts:          next/font (no external loading)
+Fonts:          next/font — Outfit (headings) + Inter (body)
 Hosting:        Vercel (US market = low latency)
 SSL:            Auto via Vercel
 Analytics:      PostHog or Plausible (privacy-first)
@@ -44,56 +44,17 @@ Forms:          Cal.com embed for demo booking
 
 ---
 
-## 3. PROJECT SETUP FOR VIBE CODING
+## 3. PROJECT SETUP
 
-### 3.1 claude.md (System Prompt)
+### 3.1 Project Configuration
 
-```markdown
-# CLAUDE.md - Real Estate AI Platform Website
-
-## Always Do First
-- **Invoke the `frontend-design` skill** before writing any frontend code
-- Check `brand_assets/` folder for logo, colors, and brand guidelines
-
-## Output Defaults
-- Next.js 15 App Router + TypeScript
-- Tailwind CSS v4 via CDN for prototyping, then proper install
-- Hero UI components for buttons, cards, inputs, navbar
-- Motion.dev for all animations
-- Mobile-first responsive (375px -> 1440px)
-- next/font for typography (Inter + Outfit or Playfair Display)
-
-## Brand Identity
-- Primary color: Electric Blue #0066FF (trust, technology)
-- Accent color: Gradient from #0066FF to #7C3AED (blue-to-purple, like Verse.ai)
-- Dark text: #0F172A (near-black, professional)
-- Background: #FAFBFF (slight blue tint, not pure white)
-- Success/CTA: #10B981 (green for action buttons)
-- Card backgrounds: white with subtle blue-tinted shadows
-
-## Anti-Generic Guardrails
-- NEVER use default Tailwind palette (indigo-500, blue-600)
-- NEVER use flat shadow-md - use layered, color-tinted shadows
-- NEVER use the same font for headings and body
-- NEVER use transition-all - only transform and opacity
-- ALWAYS pair display font (Outfit/700-800) with body font (Inter/400-500)
-- ALWAYS use tight tracking (-0.03em) on headings > 24px
-- ALWAYS add hover, focus-visible, and active states to interactive elements
-- ALWAYS use intentional spacing tokens, not random Tailwind steps
-- Surfaces must have layering system (base > elevated > floating)
-
-## Screenshot Verification
-- After generating each section, take a Puppeteer screenshot
-- Compare with reference screenshots in screenshots/ folder
-- Fix any mismatches in spacing, color, font weight
-- Do at least 2 comparison rounds per section
-
-## Content Tone
-- Professional but approachable (like Structurely)
-- Result-focused: lead with numbers and outcomes
-- US English, simple sentences, no jargon
-- Active voice: "We convert" not "Leads are converted"
-```
+> **Note:** The actual project configuration lives in `CLAUDE.md` at the project root.
+> It contains: tech stack, brand identity, anti-generic design rules, subagent strategy,
+> content guidelines, GSD workflow preferences, and session start checklist.
+> The design system details are in `brand_assets/brand-guide.md`.
+>
+> **Do NOT duplicate config here.** `CLAUDE.md` is the single source of truth
+> for runtime instructions. This blueprint is the specification reference.
 
 ### 3.2 brand_assets/ Folder Structure
 
@@ -466,11 +427,8 @@ Footer:
 ### 5.2 Typography
 
 ```css
-/* Headings: Outfit (modern geometric sans, alternative to Raleway) */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap');
-
-/* Body: Inter (universally readable, like Structurely) */
-/* Loaded via next/font for performance */
+/* Headings: Outfit (modern geometric sans) — loaded via next/font */
+/* Body: Inter (universally readable, like Structurely) — loaded via next/font */
 
 h1 { font: 800 56px/1.1 'Outfit'; letter-spacing: -0.03em; }
 h2 { font: 700 40px/1.2 'Outfit'; letter-spacing: -0.02em; }
@@ -596,65 +554,59 @@ Long-tail:
 
 ---
 
-## 7. BUILD PIPELINE (Step by Step)
+## 7. BUILD PIPELINE (GSD Workflow)
 
-### Day 1: Setup + Hero
+This project uses **Get Shit Done (GSD)** for spec-driven development with subagent orchestration.
+GSD is already installed in `.claude/`. All commands are available as `/gsd:*`.
 
-```bash
-# 1. Create Next.js project
-npx create-next-app@latest realestate-site --typescript --tailwind --app --src-dir
-
-# 2. Install dependencies
-npm install @heroui/react motion framer-motion
-
-# 3. Set up claude.md and brand_assets/
-
-# 4. Take full-page screenshots of reference sites (DevTools -> Capture full size)
-#    Save to brand_assets/reference-screenshots/
-
-# 5. Prompt Claude Code:
-"Clone the hero section from this Structurely screenshot.
- Use our brand colors from brand_assets/brand-guide.md.
- Replace the chat content with our real estate AI conversation example.
- Add the phone input form like Structurely has.
- Use screenshot loop to compare with reference."
-```
-
-### Day 2: Core Sections
+### Step 1: Initialize Project
 
 ```
-# Prompt sequence:
-1. "Build the social proof ticker + logo bar section"
-2. "Build the features grid - 4 cards with AI Calls, Text, Appointments, Transfers"
-3. "Build the CRM integrations section"
-4. "For each section: screenshot, compare with reference, fix, repeat"
+/gsd:new-project
 ```
 
-### Day 3: Conversion Sections
+GSD reads CLAUDE.md + this blueprint automatically, then:
+1. Asks clarifying questions (answer from this spec)
+2. Spawns 4 parallel research agents (stack, features, architecture, pitfalls)
+3. Generates REQUIREMENTS.md + ROADMAP.md with phases
+
+**Expected phases (roughly mapping to site sections):**
+- Phase 1: Project scaffold (Next.js + Tailwind + Hero UI + Motion.dev setup)
+- Phase 2: Navbar + Hero section (Sections 1-2)
+- Phase 3: Social Proof + Video/Product Overview (Sections 3-4)
+- Phase 4: Features Grid + CRM Integrations (Sections 5-6)
+- Phase 5: Testimonials + Comparison Table (Sections 7-8)
+- Phase 6: Pricing + Final CTA + Footer (Sections 9-10)
+- Phase 7: Polish (responsive, Lighthouse, meta tags, deploy)
+
+### Step 2: Loop Per Phase
 
 ```
-1. "Build the testimonials carousel using Ylopo's format"
-2. "Build the comparison table (With Us vs Without Us)"
-3. "Build the pricing section - 3 tiers"
-4. "Build the final CTA + footer"
+/gsd:discuss-phase N     <- Capture preferences before planning
+/gsd:plan-phase N        <- Research + create atomic task plans
+/gsd:execute-phase N     <- Build with parallel subagent waves
+/gsd:verify-work N       <- User acceptance testing
 ```
 
-### Day 4: Polish + Deploy
+### Step 3: Complete + Deploy
 
 ```
-1. "Run Lighthouse audit. Fix any Performance issues."
-2. "Check all responsive breakpoints: 375px, 768px, 1024px, 1440px"
-3. "Add meta tags, OG images, structured data"
-4. "Deploy to Vercel"
+/gsd:complete-milestone  <- Archive milestone, tag release
 ```
 
-### Day 5: Post-Launch
+### Key GSD Benefits for This Project
+- **Parallel execution:** Independent sections (features, testimonials, pricing) build simultaneously in separate subagent contexts
+- **Fresh context per plan:** Each executor gets 200K tokens, no degradation
+- **Atomic commits:** Every task gets its own git commit, easy to revert
+- **Built-in verification:** Verifier agent checks each phase against goals
+
+### Post-Launch Tasks (use /gsd:quick for each)
 
 ```
-1. Connect analytics (PostHog)
-2. Set up Cal.com for demo booking
-3. Test all forms and CTAs
-4. Submit to Product Hunt / G2
+/gsd:quick "Connect PostHog analytics"
+/gsd:quick "Set up Cal.com demo booking embed"
+/gsd:quick "Add OG images and structured data"
+/gsd:quick "Submit to Product Hunt and G2"
 ```
 
 ---
@@ -677,9 +629,9 @@ Use these pre-built components to save time:
 
 ---
 
-## 9. WHAT TO PREPARE BEFORE BUILD
+## 9. WHAT TO PREPARE BEFORE `/gsd:new-project`
 
-### Must-Have (Day 0)
+### Must-Have (before starting)
 - [ ] Company name / domain
 - [ ] Logo (SVG, dark + light versions)
 - [ ] Brand colors (or use the palette from this doc)

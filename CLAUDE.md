@@ -15,6 +15,11 @@ This project uses **Get Shit Done (GSD)** for spec-driven development with subag
 - `WEBSITE_BLUEPRINT.md` — Complete site specification (sections, design system, colors, typography, animations, content)
 - `.planning/` — GSD-managed project state (created after /gsd:new-project)
 
+## Always Do First
+- **Invoke the `frontend-design` skill** before writing any frontend code
+- Check `brand_assets/` folder for logo, colors, and brand guidelines
+- Read `WEBSITE_BLUEPRINT.md` for detailed section specifications
+
 ## Tech Stack
 - **Framework:** Next.js 15 (App Router) + TypeScript
 - **Styling:** Tailwind CSS v4
