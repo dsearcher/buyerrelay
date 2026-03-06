@@ -9,30 +9,26 @@
 
 You need these things ready. Without them, Claude will generate placeholder garbage.
 
-### Must have (won't start without these)
+### Already done
+- [x] Company name: **BuyerRelay**
+- [x] Logo: `brand_assets/product-screenshots/BuyerRelay_logo.png` (PNG — convert to SVG with vectorizer.ai for best quality, or use as-is)
+- [x] Product screenshots (4): hero chat, features dashboard, CRM sync, mobile alert — all in `brand_assets/product-screenshots/`
+- [x] Brand colors and design system in `brand_assets/brand-guide.md`
+
+### Still need before starting
 
 | # | What | Why | How to get it fast |
 |---|------|-----|--------------------|
-| 1 | **Company name** | Goes everywhere — logo, title, footer, meta tags | Just decide. Don't overthink. |
-| 2 | **Domain** | Needed for deployment | Buy on Namecheap/Cloudflare. `yourname.com` or `yourname.ai` |
-| 3 | **Logo (SVG)** | Header, footer, favicon, OG image | Option A: Pay $50 on Fiverr (24h turnaround). Option B: Use Midjourney/DALL-E to generate, then vectorize with vectorizer.ai. Option C: Text-only logo — just your company name in Outfit font, Claude can generate this. Save as `brand_assets/logo.svg` |
-| 4 | **One sentence: what your product does** | Hero subtitle, meta description | Example: "AI-powered calling, texting, and appointment setting for real estate agents" |
-| 5 | **Pricing** | Section 9 needs real numbers | Decide 3 tiers. Look at Structurely's pricing page for reference. Starter ~$99-199, Pro ~$299-499, Enterprise = "Contact Sales" |
-
-### Should have (makes site 10x better)
-
-| # | What | Why | How to get it fast |
-|---|------|-----|--------------------|
-| 6 | **2-3 product screenshots** | Hero chat mockup, features section, CRM section | If you have a real product: screenshot it. If not: create mockups in Figma (free) or ask Claude to generate placeholder UI screenshots |
-| 7 | **Demo booking link** | CTA buttons need somewhere to go | Create free Cal.com account (5 min). Set up a "Book a Demo" event type. Copy the link. |
-| 8 | **1-2 testimonials** | Social proof section | Ask beta users / early contacts. Even "We saw X% improvement in Y" from a friendly contact works. Include their name, title, company, and a headshot. |
+| 1 | **Domain** | Needed for deployment | Buy on Namecheap/Cloudflare. `buyerrelay.com` or `buyerrelay.ai` |
+| 2 | **Pricing** | Section 9 needs real numbers | Decide 3 tiers. Look at Structurely's pricing page for reference. Starter ~$99-199, Pro ~$299-499, Enterprise = "Contact Sales" |
+| 3 | **Demo booking link** | CTA buttons need somewhere to go | Create free Cal.com account (5 min). Set up a "Book a Demo" event type. Copy the link. |
 
 ### Don't need yet (Claude will use smart placeholders)
 
+- Testimonials (use stat-based format at launch, add real ones later)
 - Blog posts
 - Team photos
 - G2/Capterra badges (submit after launch)
-- Real integration logos (Claude uses CRM logos you plan to integrate with)
 - Video demo (add later with Loom, takes 10 min)
 
 ---
@@ -44,18 +40,8 @@ Open terminal:
 cd ~/projects/realestate
 ```
 
-### Put your assets in place
-
-```bash
-# Copy your logo into the project
-cp /path/to/your/logo.svg brand_assets/logo.svg
-
-# If you have a dark version:
-cp /path/to/your/logo-dark.svg brand_assets/logo-dark.svg
-
-# If you have product screenshots:
-cp /path/to/screenshots/* brand_assets/product-screenshots/
-```
+> Logo and product screenshots are already in `brand_assets/product-screenshots/`.
+> No asset copying needed.
 
 ---
 
@@ -83,7 +69,7 @@ GSD will ask you questions about the project. **You don't need to be creative he
 
 | GSD asks | You answer |
 |----------|-----------|
-| What are you building? | "A marketing website for [YOUR COMPANY NAME], an AI-powered real estate lead management platform. Full spec is in BRIEF.md." |
+| What are you building? | "A marketing website for BuyerRelay — an AI-powered lead conversion platform for US real estate agents. Full spec is in BRIEF.md." |
 | Tech stack preferences? | "Next.js 15, Tailwind v4, Hero UI, Motion.dev. All specified in CLAUDE.md" |
 | What's the target audience? | "US real estate agents, teams, and brokerages" |
 | What's the primary goal? | "Demo bookings. Every section drives toward booking a demo." |
@@ -232,7 +218,7 @@ npx vercel --prod
 After the site is live, add these one at a time:
 
 ```
-/gsd:quick "Connect Cal.com embed for demo booking — booking link is [YOUR_LINK]"
+/gsd:quick "Connect Cal.com embed for demo booking — booking link is [YOUR_CAL_LINK]"
 ```
 
 ```
@@ -284,7 +270,7 @@ Open your site on your phone and check:
 
 | Day | What | Your effort |
 |-----|------|-------------|
-| Day 0 | Prep: logo, name, pricing, booking link | 30-60 min active work |
+| Day 0 | Prep: pricing + booking link (logo/screenshots done) | 15-30 min active work |
 | Day 1 | GSD init + Phase 1-3 (scaffold, hero, social proof) | 1-2 hours (mostly waiting + approving) |
 | Day 2 | Phase 4-6 (features, integrations, testimonials, pricing) | 1-2 hours (mostly waiting + approving) |
 | Day 3 | Phase 7 (polish) + deploy | 1 hour |

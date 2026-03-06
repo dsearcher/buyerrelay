@@ -1,7 +1,7 @@
-# CLAUDE.md - AI Real Estate Lead Platform Website
+# CLAUDE.md - BuyerRelay Website
 
 ## Project Overview
-Building a professional, conversion-focused website for an AI-powered real estate lead management platform entering the US market. Full specification is in `BRIEF.md`.
+Building a professional, conversion-focused website for **BuyerRelay** — an AI-powered lead conversion platform for US real estate agents. BuyerRelay instantly responds to leads, qualifies them via AI text and call, nurtures automatically, and delivers ready-to-close buyers to agents' calendars.
 
 ## GSD Workflow
 This project uses **Get Shit Done (GSD)** for spec-driven development with subagent orchestration. All build work goes through GSD commands:
@@ -24,7 +24,8 @@ This project uses **Get Shit Done (GSD)** for spec-driven development with subag
 ## Always Do First
 - **Invoke the `frontend-design` skill** before writing any frontend code
 - Check `brand_assets/` folder for logo, colors, and brand guidelines
-- Read `BRIEF.md` for detailed section specifications
+- If `.planning/` exists: read GSD state files (PROJECT.md, ROADMAP.md, STATE.md)
+- If `.planning/` does NOT exist yet: read `BRIEF.md` for section specifications
 
 ## Tech Stack
 - **Framework:** Next.js 15 (App Router) + TypeScript
@@ -147,7 +148,7 @@ After building each section, verify visuals using the Chrome browser extension (
 
 ## Session Start Checklist
 When starting a new session on this project:
-1. Read `BRIEF.md` for full context
-2. Run `/gsd:progress` to see current state
+1. Check if `.planning/` exists — if yes, GSD is initialized, use `/gsd:progress`
+2. If no `.planning/`: read `BRIEF.md` and run `/gsd:new-project`
 3. Run `/gsd:resume-work` if mid-phase
 4. Use `/clear` between major phases for fresh context

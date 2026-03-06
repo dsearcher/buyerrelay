@@ -1,4 +1,4 @@
-# PROJECT BRIEF: AI Real Estate Lead Platform Website
+# PROJECT BRIEF: BuyerRelay Website
 
 > **One-time input for `/gsd:new-project`.** After GSD generates REQUIREMENTS.md
 > and ROADMAP.md, those become the living docs. This file is archived reference only.
@@ -11,7 +11,7 @@
 
 ## GOAL
 
-Build a 1-page, 10-section conversion-focused website for an AI-powered real estate lead management platform entering the US market. Must look like an established player, not a startup. Primary conversion goal: demo bookings.
+Build a 1-page, 10-section conversion-focused website for **BuyerRelay** — an AI-powered lead conversion platform for US real estate agents. BuyerRelay responds to leads in seconds, qualifies via AI text/call, nurtures automatically, and delivers ready-to-close buyers to agents' calendars. Must look like an established player, not a startup. Primary conversion goal: demo bookings.
 
 ---
 
@@ -50,12 +50,12 @@ Layout: 2 columns
       * "See It In Action" (secondary, outline, sparkle icon)
 
   Right (45%):
-    - Chat demo mockup showing AI conversation:
-      AI: "Hi Sarah! I noticed you viewed 3 properties in Brooklyn.
-           Are you still looking for a 2-bedroom?"
+    - Chat demo mockup showing BuyerRelay conversation:
+      BuyerRelay: "Hi Sarah! I noticed you viewed 3 properties in Brooklyn.
+                   Are you still looking for a 2-bedroom?"
       Lead: "Yes! Under $800K if possible. Can I see them this weekend?"
-      AI: "Absolutely! I have 3 options. Let me book a showing for Saturday.
-           Would 10am or 2pm work better?"
+      BuyerRelay: "Absolutely! I have 3 options. Let me book a showing for Saturday.
+                   Would 10am or 2pm work better?"
     - Below chat: Phone input "Enter your number to try our AI"
     - Button: "Talk to the AI"
 
@@ -240,14 +240,19 @@ Long-tail: how to convert online real estate leads, best AI tool for real estate
 
 ## PREPARATION CHECKLIST
 
-### Must-Have
-- [ ] Company name / domain
-- [ ] Logo (SVG, dark + light)
-- [ ] Hero tagline (final)
-- [ ] 2-3 product screenshots or mockups
-- [ ] Chat conversation example text
+### Done
+- [x] Company name: **BuyerRelay**
+- [x] Logo: `brand_assets/product-screenshots/BuyerRelay_logo.png`
+- [x] Product screenshots (4): hero, features, CRM, mobile — all in `brand_assets/product-screenshots/`
+- [x] Chat conversation example text (in Section 2 above)
+- [x] Brand colors and design system (`brand_assets/brand-guide.md`)
+
+### Still Needed
+- [ ] Domain (buyerrelay.com or buyerrelay.ai)
+- [ ] Hero tagline (final choice from options in Content Strategy)
 - [ ] Pricing tiers and prices
 - [ ] Cal.com or Calendly booking link
+- [ ] Logo in SVG format (currently PNG — convert with vectorizer.ai or use as-is)
 
 ### Can Add Later
 - [ ] Real testimonials with $ metrics
