@@ -58,7 +58,7 @@ function SocialIcon({ href, label, children }: { href: string; label: string; ch
 
 export function Footer() {
   return (
-    <SectionWrapper dark id="footer">
+    <SectionWrapper dark id="footer" ariaLabel="Footer" as="footer">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Column 1: Brand */}
         <div className="sm:col-span-2 lg:col-span-1">

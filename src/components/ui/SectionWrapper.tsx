@@ -1,10 +1,12 @@
 import type { SectionProps } from '@/types';
-import type { ReactNode } from 'react';
+import type { ElementType, ReactNode } from 'react';
 
 interface SectionWrapperProps extends SectionProps {
   children: ReactNode;
   dark?: boolean;
   noPadding?: boolean;
+  ariaLabel?: string;
+  as?: ElementType;
 }
 
 /**
@@ -18,11 +20,14 @@ export function SectionWrapper({
   style,
   dark = false,
   noPadding = false,
+  ariaLabel,
+  as: Tag = 'section',
 }: SectionWrapperProps) {
   return (
-    <section
+    <Tag
       id={id}
       style={style}
+      aria-label={ariaLabel}
       className={`scroll-mt-20 ${dark ? 'bg-bg-dark text-white' : ''} ${noPadding ? '' : 'py-16 md:py-24'} ${className}`}
     >
       <div
@@ -30,6 +35,6 @@ export function SectionWrapper({
       >
         {children}
       </div>
-    </section>
+    </Tag>
   );
 }

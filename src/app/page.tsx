@@ -20,7 +20,6 @@ export default function HomePage() {
         <ProductOverview />
         <FeaturesGrid />
         <CRMIntegrations />
-        {/* Phase 4: Conversion sections */}
         <Testimonials />
         <Comparison />
         <Pricing />

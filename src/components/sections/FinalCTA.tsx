@@ -17,7 +17,7 @@ const trustBadges = [
   {
     label: '256-bit Encryption',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
@@ -25,7 +25,7 @@ const trustBadges = [
   {
     label: 'Trusted by 500+ Agents',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
         <circle cx="9" cy="7" r="4" />
         <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -36,7 +36,7 @@ const trustBadges = [
   {
     label: '14-Day Free Trial',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="10" />
         <polyline points="12 6 12 12 16 14" />
       </svg>
@@ -60,6 +60,7 @@ export function FinalCTA() {
     <SectionWrapper
       id="cta"
       dark
+      ariaLabel="Book a Demo"
       className="relative overflow-hidden"
       style={{
         background: 'linear-gradient(180deg, #0F172A, #1E293B)',
@@ -92,22 +93,26 @@ export function FinalCTA() {
               <input
                 type="text"
                 placeholder="Your Name"
+                aria-label="Your name"
                 required
                 className={inputClasses}
               />
               <input
                 type="email"
                 placeholder="work@email.com"
+                aria-label="Work email"
                 required
                 className={inputClasses}
               />
               <input
                 type="tel"
                 placeholder="(555) 123-4567"
+                aria-label="Phone number"
                 className={inputClasses}
               />
               <select
                 defaultValue=""
+                aria-label="Team size"
                 required
                 className={`${inputClasses} appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b8%22%20stroke-width%3D%222%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%2F%3E%3C%2Fsvg%3E')] bg-[length:16px] bg-[position:right_12px_center] bg-no-repeat pr-10`}
               >
@@ -149,6 +154,7 @@ export function FinalCTA() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
+                    aria-hidden="true"
                   >
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <polyline points="12 5 19 12 12 19" />

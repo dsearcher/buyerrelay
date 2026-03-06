@@ -71,6 +71,7 @@ function CheckIcon() {
       viewBox="0 0 16 16"
       fill="none"
       className="shrink-0 mt-0.5"
+      aria-hidden="true"
     >
       <path
         d="M3 8.5L6.5 12L13 4"
@@ -91,6 +92,7 @@ function ShieldIcon() {
       viewBox="0 0 16 16"
       fill="none"
       className="shrink-0"
+      aria-hidden="true"
     >
       <path
         d="M8 1L2 4V7.5C2 11.09 4.56 14.41 8 15C11.44 14.41 14 11.09 14 7.5V4L8 1Z"
@@ -207,7 +209,7 @@ function PricingCard({ tier }: { tier: PricingTier }) {
 
 export function Pricing() {
   return (
-    <SectionWrapper id="pricing">
+    <SectionWrapper id="pricing" ariaLabel="Pricing">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="font-heading text-4xl md:text-[40px] font-bold text-[#0F172A] tracking-[-0.02em]">

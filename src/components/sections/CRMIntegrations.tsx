@@ -13,7 +13,7 @@ const useCases = [
   {
     label: 'Old Leads',
     icon: (
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0" aria-hidden="true">
         <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5" />
         <path d="M8 4v4l3 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
@@ -22,7 +22,7 @@ const useCases = [
   {
     label: 'Rehashed Leads',
     icon: (
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0" aria-hidden="true">
         <path d="M13 3l-1.5 1.5M3 13l1.5-1.5M11.5 4.5A4.5 4.5 0 014.5 11.5M4.5 11.5A4.5 4.5 0 0111.5 4.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
@@ -30,7 +30,7 @@ const useCases = [
   {
     label: 'New Leads Off Hours',
     icon: (
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0" aria-hidden="true">
         <path d="M13.5 9.5a5.5 5.5 0 01-7-7 5.5 5.5 0 107 7z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
@@ -38,7 +38,7 @@ const useCases = [
   {
     label: 'Uncontacted Leads',
     icon: (
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-primary shrink-0" aria-hidden="true">
         <circle cx="8" cy="5" r="3" stroke="currentColor" strokeWidth="1.5" />
         <path d="M3 14c0-2.8 2.2-5 5-5s5 2.2 5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         <path d="M11 3l3 3M14 3l-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
@@ -60,7 +60,7 @@ const integrations = [
 
 export function CRMIntegrations() {
   return (
-    <SectionWrapper id="integrations">
+    <SectionWrapper id="integrations" ariaLabel="CRM Integrations">
       {/* Top 2-column layout */}
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left column */}

@@ -59,7 +59,7 @@ function XIcon() {
 
 export function Comparison() {
   return (
-    <SectionWrapper id="comparison">
+    <SectionWrapper id="comparison" ariaLabel="Comparison">
       {/* Heading */}
       <div className="mb-12 text-center md:mb-16">
         <motion.h2

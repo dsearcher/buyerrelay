@@ -169,7 +169,7 @@ export function Testimonials() {
   }, [isPaused]);
 
   return (
-    <SectionWrapper id="testimonials" dark>
+    <SectionWrapper id="testimonials" dark ariaLabel="Testimonials">
       <ScrollReveal>
         {/* Heading */}
         <div className="mb-12 text-center">

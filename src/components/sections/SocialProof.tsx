@@ -78,7 +78,7 @@ function LogoMarquee() {
 
 export function SocialProof() {
   return (
-    <SectionWrapper noPadding>
+    <SectionWrapper noPadding ariaLabel="Social Proof">
       <div className="border-t border-b border-border py-8 md:py-12">
         <div className="space-y-6">
           <StatMarquee />

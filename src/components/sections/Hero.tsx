@@ -11,6 +11,7 @@ export function Hero() {
   return (
     <section
       id="hero"
+      aria-label="Hero"
       className="relative min-h-[calc(100vh-64px)] flex items-center overflow-hidden"
     >
       {/* Background layers */}
@@ -90,6 +91,7 @@ export function Hero() {
                 className="w-4 h-4 text-[var(--color-success)]"
                 fill="currentColor"
                 viewBox="0 0 20 20"
+                aria-hidden="true"
               >
                 <path
                   fillRule="evenodd"
@@ -113,6 +115,7 @@ export function Hero() {
               <input
                 type="tel"
                 placeholder="Enter your phone number"
+                aria-label="Enter your phone number"
                 className="border border-[var(--color-border)] rounded-l-[var(--radius-pill)] px-5 py-3.5 text-sm w-full max-w-[280px] focus:outline-none focus:ring-2 focus:ring-[rgba(0,102,255,0.3)] focus:border-[var(--color-primary)] bg-white"
               />
               <button
