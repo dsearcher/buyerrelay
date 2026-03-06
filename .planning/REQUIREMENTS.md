@@ -35,9 +35,9 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Social Proof
 
-- [ ] **SOCL-01**: Auto-scrolling marquee ticker with stat quotes ("Appointments lifted by 20-50%", "$72M in transactions", etc.)
-- [ ] **SOCL-02**: Integration logo bar with infinite scroll (Follow Up Boss, Sierra, CINC, BoomTown, HubSpot, Salesforce)
-- [ ] **SOCL-03**: Logos display grayscale by default, color on hover
+- [x] **SOCL-01**: Auto-scrolling marquee ticker with stat quotes ("Appointments lifted by 20-50%", "$72M in transactions", etc.)
+- [x] **SOCL-02**: Integration logo bar with infinite scroll (Follow Up Boss, Sierra, CINC, BoomTown, HubSpot, Salesforce)
+- [x] **SOCL-03**: Logos display grayscale by default, color on hover
 
 ### Product Overview
 
@@ -159,9 +159,9 @@ Deferred to post-launch (first 30-90 days).
 | HERO-07 | Phase 2 | Complete |
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
-| SOCL-01 | Phase 3 | Pending |
-| SOCL-02 | Phase 3 | Pending |
-| SOCL-03 | Phase 3 | Pending |
+| SOCL-01 | Phase 3 | Complete |
+| SOCL-02 | Phase 3 | Complete |
+| SOCL-03 | Phase 3 | Complete |
 | PROD-01 | Phase 3 | Pending |
 | PROD-02 | Phase 3 | Pending |
 | PROD-03 | Phase 3 | Pending |
