@@ -96,11 +96,10 @@ Plans:
   2. All images use next/image with proper sizing and lazy loading; no layout shift on scroll
   3. HTML uses semantic structure (proper heading hierarchy h1-h3, landmark regions, alt text on all images)
   4. Site deploys to Vercel with `vercel build` succeeding and the live URL loading all sections correctly
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md -- SEO metadata, OG tags, OG image, semantic HTML audit, image optimization, and production build verification
 
 ## Progress
 
@@ -113,4 +112,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 2. Structural Frame | 2/2 | Complete   | 2026-03-06 |
 | 3. Content Sections | 0/4 | Not started | - |
 | 4. Conversion Sections | 4/4 | Complete   | 2026-03-06 |
-| 5. Polish and Deploy | 0/2 | Not started | - |
+| 5. Polish and Deploy | 0/1 | Not started | - |
