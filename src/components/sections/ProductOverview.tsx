@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'motion/react';
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
@@ -60,55 +61,22 @@ export function ProductOverview() {
         </div>
       </ScrollReveal>
 
-      {/* Video Placeholder */}
+      {/* Product Workflow Image */}
       <ScrollReveal delay={0.1}>
         <div
-          className="relative aspect-video rounded-[16px] overflow-hidden mb-12 md:mb-16"
+          className="rounded-[16px] overflow-hidden mb-12 md:mb-16"
           style={{
-            background: 'linear-gradient(135deg, rgba(0, 102, 255, 0.08), rgba(124, 58, 237, 0.08))',
             boxShadow: '0 8px 32px rgba(0, 102, 255, 0.07), 0 2px 8px rgba(0, 102, 255, 0.04)',
           }}
         >
-          {/* Subtle grid pattern overlay */}
-          <div
-            className="absolute inset-0 opacity-[0.03]"
-            style={{
-              backgroundImage: 'radial-gradient(circle at 1px 1px, #0066FF 1px, transparent 0)',
-              backgroundSize: '32px 32px',
-            }}
+          <Image
+            src="/screenshots/how-it-works.png"
+            alt="BuyerRelay AI lead conversion workflow — from new lead received to qualification, tour request, and agent handoff"
+            width={1408}
+            height={736}
+            className="w-full h-auto"
+            priority
           />
-
-          {/* Center content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-            {/* Play button */}
-            <motion.button
-              className="relative w-16 h-16 rounded-full bg-white flex items-center justify-center cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-              style={{
-                boxShadow: '0 8px 32px rgba(0, 102, 255, 0.15), 0 2px 8px rgba(0, 102, 255, 0.08)',
-              }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-              aria-label="Play product demo video"
-            >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="#0066FF"
-                className="ml-1"
-              >
-                <path d="M8 5.14v14l11-7-11-7z" />
-              </svg>
-            </motion.button>
-
-            <span className="text-sm font-medium text-text-secondary/60">
-              Product Demo Coming Soon
-            </span>
-          </div>
-
-          {/* Border effect */}
-          <div className="absolute inset-0 rounded-[16px] border border-[rgba(0,102,255,0.08)]" />
         </div>
       </ScrollReveal>
 
