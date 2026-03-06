@@ -41,9 +41,9 @@ Requirements for initial launch. Each maps to roadmap phases.
 
 ### Product Overview
 
-- [ ] **PROD-01**: Section heading "See How It Works" with subtitle
-- [ ] **PROD-02**: Video placeholder with compelling thumbnail and play button overlay
-- [ ] **PROD-03**: 3 stat cards with count-up animation on scroll (50% Lower Overhead, 17% More Qualified Leads, 31% Higher Answer Rate)
+- [x] **PROD-01**: Section heading "See How It Works" with subtitle
+- [x] **PROD-02**: Video placeholder with compelling thumbnail and play button overlay
+- [x] **PROD-03**: 3 stat cards with count-up animation on scroll (50% Lower Overhead, 17% More Qualified Leads, 31% Higher Answer Rate)
 
 ### Features
 
@@ -162,9 +162,9 @@ Deferred to post-launch (first 30-90 days).
 | SOCL-01 | Phase 3 | Complete |
 | SOCL-02 | Phase 3 | Complete |
 | SOCL-03 | Phase 3 | Complete |
-| PROD-01 | Phase 3 | Pending |
-| PROD-02 | Phase 3 | Pending |
-| PROD-03 | Phase 3 | Pending |
+| PROD-01 | Phase 3 | Complete |
+| PROD-02 | Phase 3 | Complete |
+| PROD-03 | Phase 3 | Complete |
 | FEAT-01 | Phase 3 | Complete |
 | FEAT-02 | Phase 3 | Complete |
 | FEAT-03 | Phase 3 | Complete |
