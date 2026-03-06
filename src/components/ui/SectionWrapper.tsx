@@ -15,12 +15,14 @@ export function SectionWrapper({
   children,
   id,
   className = '',
+  style,
   dark = false,
   noPadding = false,
 }: SectionWrapperProps) {
   return (
     <section
       id={id}
+      style={style}
       className={`scroll-mt-20 ${dark ? 'bg-bg-dark text-white' : ''} ${noPadding ? '' : 'py-16 md:py-24'} ${className}`}
     >
       <div

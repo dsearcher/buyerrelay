@@ -1,6 +1,7 @@
 export interface SectionProps {
   id?: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 export interface NavLink {
