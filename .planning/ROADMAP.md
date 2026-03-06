@@ -61,13 +61,13 @@ Plans:
   2. Stat cards (50% Lower Overhead, 17% More Qualified Leads, 31% Higher Answer Rate) count up from zero when scrolled into view
   3. Four feature cards (AI Calling, AI Texting, Appointment Setting, Live Transfers) display in a 2x2 grid on desktop with staggered fade-in animation, and stack single-column on mobile
   4. CRM section shows use-case badges, product screenshot, and an 8-logo integration grid
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
-- [ ] 03-04: TBD
+- [ ] 03-01-PLAN.md -- Social proof ticker with dual infinite marquee (stat quotes + integration logos with grayscale hover)
+- [ ] 03-02-PLAN.md -- Product overview with "See How It Works" heading, video placeholder, and 3 count-up stat cards
+- [ ] 03-03-PLAN.md -- Features grid with 4 animated cards (AI Calling, AI Texting, Appointment Setting, Live Transfers)
+- [ ] 03-04-PLAN.md -- CRM integrations with use-case badges, screenshot placeholder, and 8-logo grid
 
 ### Phase 4: Conversion Sections
 **Goal**: Visitors are convinced to act -- testimonials build trust, comparison highlights the cost of inaction, pricing removes ambiguity, and the final CTA captures leads
