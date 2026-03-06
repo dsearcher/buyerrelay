@@ -102,6 +102,40 @@ Claude MUST use subagents (Agent tool) for:
 - Motion.dev — All scroll animations
 - UI Verse — CSS-only animated elements
 
+## Visual QA (Chrome Extension)
+
+After building each section, verify visuals using the Chrome browser extension (`mcp__claude-in-chrome__*`):
+
+### Verification Loop (run after each section is built)
+1. **Start dev server** if not running: `npm run dev`
+2. **Navigate** to `http://localhost:3000` using `mcp__claude-in-chrome__navigate`
+3. **Screenshot** the section using `mcp__claude-in-chrome__computer` (action: screenshot)
+4. **Check against brand rules:**
+   - Colors match brand-guide.md tokens (no default Tailwind blue/indigo)
+   - Typography: Outfit for headings, Inter for body, correct weights/sizes
+   - Shadows are layered and blue-tinted, not flat
+   - Buttons are pill-shaped (999px radius)
+   - Cards have 16px radius, proper padding
+   - Spacing follows 4px base unit scale
+   - Interactive elements have hover/focus states
+5. **Scroll down** to check each section sequentially
+6. **Test responsive:** resize window to 375px (mobile), 768px (tablet), 1440px (desktop)
+7. **Fix issues** found, re-screenshot, confirm fix
+
+### When to run visual QA
+- After completing each GSD phase that produces UI
+- During `/gsd:verify-work` step
+- Before `/gsd:complete-milestone`
+
+### Chrome extension tools to use
+- `tabs_context_mcp` — get current tabs
+- `tabs_create_mcp` — open new tab
+- `navigate` — go to localhost or reference site
+- `computer` (screenshot) — capture current state
+- `computer` (scroll) — scroll to check below-fold sections
+- `resize_window` — test responsive breakpoints
+- `read_page` — check accessibility tree for semantic HTML
+
 ## GSD Configuration Preferences
 - Mode: `interactive` (confirm at each step)
 - Profile: `quality` (Opus for planning, Opus for execution)
