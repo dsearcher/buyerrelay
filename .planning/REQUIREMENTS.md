@@ -157,20 +157,22 @@ Deferred to post-launch (first 30-90 days).
 | HERO-05 | Phase 2 | Pending |
 | HERO-06 | Phase 2 | Pending |
 | HERO-07 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Pending |
+| FOOT-02 | Phase 2 | Pending |
 | SOCL-01 | Phase 3 | Pending |
 | SOCL-02 | Phase 3 | Pending |
 | SOCL-03 | Phase 3 | Pending |
 | PROD-01 | Phase 3 | Pending |
 | PROD-02 | Phase 3 | Pending |
 | PROD-03 | Phase 3 | Pending |
-| FEAT-01 | Phase 4 | Pending |
-| FEAT-02 | Phase 4 | Pending |
-| FEAT-03 | Phase 4 | Pending |
-| FEAT-04 | Phase 4 | Pending |
-| FEAT-05 | Phase 4 | Pending |
-| CRM-01 | Phase 4 | Pending |
-| CRM-02 | Phase 4 | Pending |
-| CRM-03 | Phase 4 | Pending |
+| FEAT-01 | Phase 3 | Pending |
+| FEAT-02 | Phase 3 | Pending |
+| FEAT-03 | Phase 3 | Pending |
+| FEAT-04 | Phase 3 | Pending |
+| FEAT-05 | Phase 3 | Pending |
+| CRM-01 | Phase 3 | Pending |
+| CRM-02 | Phase 3 | Pending |
+| CRM-03 | Phase 3 | Pending |
 | TEST-01 | Phase 4 | Pending |
 | TEST-02 | Phase 4 | Pending |
 | TEST-03 | Phase 4 | Pending |
@@ -179,17 +181,15 @@ Deferred to post-launch (first 30-90 days).
 | COMP-02 | Phase 4 | Pending |
 | COMP-03 | Phase 4 | Pending |
 | COMP-04 | Phase 4 | Pending |
-| PRIC-01 | Phase 5 | Pending |
-| PRIC-02 | Phase 5 | Pending |
-| PRIC-03 | Phase 5 | Pending |
-| PRIC-04 | Phase 5 | Pending |
-| PRIC-05 | Phase 5 | Pending |
-| CTA-01 | Phase 5 | Pending |
-| CTA-02 | Phase 5 | Pending |
-| CTA-03 | Phase 5 | Pending |
-| CTA-04 | Phase 5 | Pending |
-| FOOT-01 | Phase 5 | Pending |
-| FOOT-02 | Phase 5 | Pending |
+| PRIC-01 | Phase 4 | Pending |
+| PRIC-02 | Phase 4 | Pending |
+| PRIC-03 | Phase 4 | Pending |
+| PRIC-04 | Phase 4 | Pending |
+| PRIC-05 | Phase 4 | Pending |
+| CTA-01 | Phase 4 | Pending |
+| CTA-02 | Phase 4 | Pending |
+| CTA-03 | Phase 4 | Pending |
+| CTA-04 | Phase 4 | Pending |
 | SEO-01 | Phase 5 | Pending |
 | SEO-02 | Phase 5 | Pending |
 | SEO-03 | Phase 5 | Pending |
@@ -202,4 +202,4 @@ Deferred to post-launch (first 30-90 days).
 
 ---
 *Requirements defined: 2026-03-06*
-*Last updated: 2026-03-06 after initial definition*
+*Last updated: 2026-03-06 after roadmap creation*
