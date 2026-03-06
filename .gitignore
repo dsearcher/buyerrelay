@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.local
+.env.*.local
+*.pem
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+temporary_screenshots/
