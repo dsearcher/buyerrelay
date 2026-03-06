@@ -40,3 +40,15 @@ button { cursor: pointer; }  /* Tailwind v4 changed buttons to cursor: default *
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Typing indicator animation for chat mockup */
+@keyframes typing-dot {
+  0%, 60%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
