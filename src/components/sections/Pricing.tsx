@@ -220,6 +220,35 @@ export function Pricing() {
         </p>
       </div>
 
+      {/* ISA Cost Comparison */}
+      <div className="mx-auto max-w-3xl mb-12">
+        <div className="rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-6 md:p-8">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center gap-6">
+            {/* ISA side */}
+            <div className="text-center">
+              <p className="text-sm font-medium text-[#94A3B8] uppercase tracking-wider mb-2">Typical ISA</p>
+              <p className="font-heading text-3xl font-bold text-[#0F172A] tracking-[-0.02em]">$3,000–4,000<span className="text-lg font-normal text-[#94A3B8]">/mo</span></p>
+              <p className="text-sm text-[#94A3B8] mt-2">+ training + turnover + sick days</p>
+            </div>
+
+            {/* VS divider */}
+            <div className="hidden md:flex items-center justify-center">
+              <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-[#0066FF] to-[#7C3AED] text-white font-bold text-sm">vs</span>
+            </div>
+            <div className="md:hidden flex justify-center">
+              <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-[#0066FF] to-[#7C3AED] text-white font-bold text-sm">vs</span>
+            </div>
+
+            {/* BuyerRelay side */}
+            <div className="text-center">
+              <p className="text-sm font-medium text-[#0066FF] uppercase tracking-wider mb-2">BuyerRelay</p>
+              <p className="font-heading text-3xl font-bold text-[#0F172A] tracking-[-0.02em]">$299<span className="text-lg font-normal text-[#94A3B8]">/mo</span></p>
+              <p className="text-sm text-[#10B981] mt-2">Works nights, weekends, never calls in sick</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Pricing cards */}
       <motion.div
         {...staggerContainer}

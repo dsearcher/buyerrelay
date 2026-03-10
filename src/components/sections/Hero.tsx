@@ -1,7 +1,7 @@
 'use client';
 
+import Image from 'next/image';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
-import { ChatMockup } from '@/components/sections/ChatMockup';
 
 export function Hero() {
   const scrollTo = (id: string) => {
@@ -49,79 +49,117 @@ export function Hero() {
       {/* Content */}
       <div className="relative w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 pb-16">
         <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-8 items-center">
-          {/* Left column - Headline + CTAs */}
+          {/* Left column - Headline + Phone CTA */}
           <ScrollReveal direction="up" className="order-1">
             {/* Eyebrow badge */}
             <span className="inline-block mb-6 bg-[rgba(0,102,255,0.1)] text-[var(--color-primary)] text-sm font-medium px-4 py-1.5 rounded-[var(--radius-pill)]">
-              AI-Powered Lead Conversion
+              Built for Real Estate Agents
             </span>
 
             {/* H1 */}
             <h1 className="font-[var(--font-heading)] text-4xl sm:text-5xl lg:text-[56px] font-extrabold tracking-[-0.03em] leading-[1.1] text-[var(--color-text-primary)]">
-              Your Leads Reply.{' '}
-              <span className="gradient-text">Your Calendar Fills.</span>
+              Three New Leads Just Came In.{' '}
+              <span className="gradient-text">Two Are Already Booked.</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-[var(--color-text-secondary)] text-lg md:text-xl leading-relaxed mt-6 max-w-[540px]">
-              BuyerRelay texts, calls, and qualifies every lead in under 10 seconds — then books the serious ones straight onto your calendar. You just show up and close.
+              You&apos;re between showings. Your phone buzzes — not with voicemails to return, but with confirmed appointments BuyerRelay booked while you were closing.
             </p>
 
-            {/* CTA buttons */}
-            <div className="flex flex-wrap gap-4 mt-8">
+            {/* Phone input - Primary CTA */}
+            <div className="mt-8 max-w-[440px]">
+              <label
+                htmlFor="hero-phone"
+                className="block text-[var(--color-text-primary)] text-sm font-medium mb-2.5"
+              >
+                See it work on your phone
+              </label>
+              <div className="flex">
+                <input
+                  id="hero-phone"
+                  type="tel"
+                  placeholder="(555) 123-4567"
+                  aria-label="Enter your phone number"
+                  className="border-2 border-[var(--color-border)] rounded-l-[var(--radius-pill)] px-6 py-4 text-base w-full focus:outline-none focus:ring-2 focus:ring-[rgba(0,102,255,0.3)] focus:border-[var(--color-primary)] bg-white"
+                />
+                <button
+                  onClick={() => scrollTo('cta')}
+                  className="bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-accent)] text-white px-7 py-4 rounded-r-[var(--radius-pill)] font-semibold text-base hover:shadow-[var(--shadow-brand-lg)] hover:scale-[1.02] transition-transform duration-200 whitespace-nowrap focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] active:scale-[0.98]"
+                >
+                  Try It Now
+                </button>
+              </div>
+              {/* Secondary CTA link */}
               <button
                 onClick={() => scrollTo('pricing')}
-                className="bg-[var(--color-primary)] text-white font-medium px-8 py-3.5 rounded-[var(--radius-pill)] shadow-[var(--shadow-brand-md)] hover:shadow-[var(--shadow-brand-lg)] hover:scale-[1.02] transition-transform duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] active:scale-[0.98]"
+                className="mt-3 text-[var(--color-primary)] text-sm font-medium hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] cursor-pointer"
               >
-                Book a Demo
-              </button>
-              <button
-                onClick={() => scrollTo('how-it-works')}
-                className="border-2 border-[var(--color-primary)] text-[var(--color-primary)] font-medium px-8 py-3.5 rounded-[var(--radius-pill)] hover:bg-[rgba(0,102,255,0.05)] transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] active:scale-[0.98]"
-              >
-                See It In Action
+                or Book a Demo →
               </button>
             </div>
 
-            {/* Trust line */}
-            <p className="text-[var(--color-text-muted)] text-sm mt-6 flex items-center gap-2">
-              <svg
-                className="w-4 h-4 text-[var(--color-success)]"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Replacing ISAs for 500+ agents nationwide
-            </p>
+            {/* Trust lines */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 mt-8">
+              <p className="text-[var(--color-text-muted)] text-sm flex items-center gap-2">
+                <svg
+                  className="w-4 h-4 text-[var(--color-success)] shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Replacing ISAs for 500+ agents nationwide
+              </p>
+              <p className="text-[var(--color-text-muted)] text-sm flex items-center gap-2">
+                <svg
+                  className="w-4 h-4 text-[var(--color-success)] shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Average agent sees first appointment in 48 hours
+              </p>
+            </div>
           </ScrollReveal>
 
-          {/* Right column - Chat mockup + phone input */}
+          {/* Right column - Lifestyle photo */}
           <ScrollReveal direction="right" delay={0.2} className="order-2">
-            <ChatMockup />
-
-            {/* Try the AI phone input */}
-            <p className="text-[var(--color-text-muted)] text-xs mt-4 mb-2">
-              See how it works
-            </p>
-            <div className="flex max-w-full lg:max-w-[380px]">
-              <input
-                type="tel"
-                placeholder="Enter your phone number"
-                aria-label="Enter your phone number"
-                className="border border-[var(--color-border)] rounded-l-[var(--radius-pill)] px-5 py-3.5 text-sm w-full max-w-[280px] focus:outline-none focus:ring-2 focus:ring-[rgba(0,102,255,0.3)] focus:border-[var(--color-primary)] bg-white"
+            <div
+              className="relative rounded-2xl overflow-hidden"
+              style={{
+                boxShadow:
+                  '0 8px 32px rgba(0, 102, 255, 0.07), 0 2px 8px rgba(0, 102, 255, 0.04)',
+              }}
+            >
+              <Image
+                src="/photos/agent-lifestyle.png"
+                alt="Real estate agent receiving confirmed appointments on their phone between showings"
+                width={640}
+                height={480}
+                className="w-full h-auto object-cover"
+                priority
               />
-              <button
-                onClick={() => scrollTo('cta')}
-                className="bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-accent)] text-white px-6 py-3.5 rounded-r-[var(--radius-pill)] font-medium hover:shadow-[var(--shadow-brand-md)] transition-transform duration-200 whitespace-nowrap focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] active:scale-[0.98]"
-              >
-                Try It
-              </button>
+              {/* Bottom gradient overlay */}
+              <div
+                className="absolute inset-x-0 bottom-0 h-24 pointer-events-none"
+                style={{
+                  background:
+                    'linear-gradient(to top, rgba(15, 23, 42, 0.4) 0%, transparent 100%)',
+                }}
+                aria-hidden="true"
+              />
             </div>
           </ScrollReveal>
         </div>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import Image from 'next/image';
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
 
@@ -10,7 +11,7 @@ interface Testimonial {
   metric: string;
   authorName: string;
   authorTitle: string;
-  initials: string;
+  photo: string;
 }
 
 const testimonials: Testimonial[] = [
@@ -20,7 +21,7 @@ const testimonials: Testimonial[] = [
     metric: '$2.4M in pipeline from "dead" leads',
     authorName: 'Sarah Mitchell',
     authorTitle: 'Team Lead, Keller Williams Orlando',
-    initials: 'SM',
+    photo: '/photos/sarah-mitchell.png',
   },
   {
     quote:
@@ -28,7 +29,7 @@ const testimonials: Testimonial[] = [
     metric: '34% more appointments at 1/5th the cost',
     authorName: 'James Rodriguez',
     authorTitle: 'Broker, RE/MAX Coastal',
-    initials: 'JR',
+    photo: '/photos/james-rodriguez.png',
   },
   {
     quote:
@@ -36,7 +37,7 @@ const testimonials: Testimonial[] = [
     metric: '$890K closed from an 11pm lead',
     authorName: 'Michelle Chen',
     authorTitle: 'Managing Partner, Compass NYC',
-    initials: 'MC',
+    photo: '/photos/michelle-chen.png',
   },
 ];
 
@@ -127,12 +128,13 @@ function TestimonialCard({
 
           {/* Author */}
           <div className="mt-6 flex items-center gap-3">
-            <div
-              className="flex h-12 w-12 items-center justify-center rounded-full text-sm font-semibold"
-              style={{ background: '#334155', color: '#94A3B8' }}
-            >
-              {testimonial.initials}
-            </div>
+            <Image
+              src={testimonial.photo}
+              alt={testimonial.authorName}
+              width={48}
+              height={48}
+              className="h-12 w-12 rounded-full object-cover"
+            />
             <div>
               <p className="font-medium" style={{ color: '#F8FAFC' }}>
                 {testimonial.authorName}
